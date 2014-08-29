@@ -1,0 +1,120 @@
+/* -------- Constants -------------- */
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+.transition {
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.ninesixty {
+    width: 960px;
+    margin: auto;
+}
+
+
+/* -------- End Constants -------------- */
+
+/* -------- Header -------------- */
+
+.header {
+    background: url(../img/header.jpg) no-repeat center bottom; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-bottom: 5px solid #B7102A;
+}
+.header-container {
+    height: 200px;
+}
+.header-container img {
+    margin-top: 50px;
+}
+.menu {
+    float: right;
+    margin-top: 70px;
+}
+.menu ul {
+    list-style: none;   
+}
+
+.menu ul li {;
+    float: left;
+    padding: 10px 20px;
+}
+.menu ul li a {
+    color: #FFF;
+    text-decoration: none;
+    padding: 10px 0px;
+    border-bottom: 1px solid #FFF;
+    letter-spacing: 2px;
+}
+.menu ul li a:hover {   
+    border-bottom: 2px solid #FFF;
+}
+
+
+/* -------- End Header -------------- */
+
+/* -------- Footer -------------- */
+
+.footer {
+	background-color: #372F2D;
+	height: 400px;
+	color: #FFF;
+	padding-top: 40px;
+}
+.footer-nav {
+	background: url('../img/emc-logo-bottom.png') no-repeat;
+	text-align: right;
+	font-style: 600;
+	height: 80px;
+	border-bottom: 1px solid #736E6B;
+}
+.footer-nav ul {
+	float: right;
+}
+.footer-nav ul li {
+	float: left;
+	list-style: none;
+}
+.footer-nav ul li a, .footer-nav ul li a:link, .footer-nav ul li a:visited, .footer-nav ul li a:hover {
+	margin: 5px 12px;
+	text-decoration: none;
+	border-bottom: 1px solid #FFF;
+	color: #FFF;
+	font-size: 20px;
+	font-weight: 400;
+}
+.footer-nav ul li a:hover {
+	border-bottom: 2px solid #FFF;
+}
+.footer-nav ul li a.last {
+	margin-right: 0px;
+}
+.social-icons {
+	float: right;
+	margin-top: 20px;
+}
+.footer p {
+	line-height: 1.8;
+	font-size: 20px;
+}
+.footer p a, .footer p a:link, .footer p a:visited, .footer p a:hover {
+	text-decoration: none;
+	color: #FFF;
+	font-size: 20px;
+}
+/* -------- End Footer -------------- */
