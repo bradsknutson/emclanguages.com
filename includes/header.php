@@ -35,9 +35,12 @@
 		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 	  })();
 	</script>
-    
-    <!-- jQuery -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <!-- Script -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="<?php echo $server; ?>lib/js/plugins.js"></script>
+    <script src="<?php echo $server; ?>lib/js/sly.min.js"></script>
+    <script src="<?php echo $server; ?>lib/js/custom.js?v=<?php echo $version; ?>"></script>
 </head>
 <body>
     <div class="container">

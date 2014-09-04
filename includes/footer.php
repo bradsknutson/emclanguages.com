@@ -27,11 +27,5 @@
 			</div>
 		</div>
 	</div>
-
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script src="<?php echo $server; ?>lib/js/plugins.js"></script>
-    <script src="<?php echo $server; ?>lib/js/sly.min.js"></script>
-    <script src="<?php echo $server; ?>lib/js/custom.js?v=<?php echo $version; ?>"></script>
-
 </body>
 </html>
