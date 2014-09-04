@@ -11,14 +11,17 @@
     <title>EMC World Languages</title>
 	
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="<?php echo $server; ?>img/favicon.ico" type="image/x-icon" >
+	<link rel="shortcut icon" href="<?php echo $server; ?>lib/img/favicon.ico" type="image/x-icon" >
 
 	<!-- Typekit -->
 	<script type="text/javascript" src="//use.typekit.net/tvi6hef.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
 	<!-- Add CSS -->
-	<link href="<?php echo $server; ?>css/style.css?v=1.3.6" rel="stylesheet">
+	<link href="<?php echo $server; ?>lib/css/style.css?v=1.3.6" rel="stylesheet">
+    
+    <!-- Add Modernizr -->
+    <script src="<?php echo $server; ?>lib/js/modernizr.js"></script>
     
     <!-- Universal Analytics -->
 	<script type="text/javascript">
@@ -40,7 +43,7 @@
     <div class="container">
         <div class="header">
             <div class="header-container ninesixty">
-                <img src="<?php echo $server; ?>img/emc-world-languages-logo.png" alt="EMC World Languages" />
+                <img src="<?php echo $server; ?>lib/img/emc-world-languages-logo.png" alt="EMC World Languages" />
                 <div class="menu">
                     <ul>
                         <li><a href="http://www.emcp.com" class="transition">Home</a></li>
