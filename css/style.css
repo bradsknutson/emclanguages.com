@@ -1,4 +1,4 @@
-/* -------- Constants -------------- */
+/* -------- Constants -------- */
 
 * {
     box-sizing: border-box;
@@ -8,7 +8,7 @@
     padding: 0;
 }
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: "myriad-pro", sans-serif;
     font-weight: 300;
 }
 .transition {
@@ -22,11 +22,13 @@ body {
     width: 960px;
     margin: auto;
 }
+.clearfix, .clearfix:before, .clearfix:after {
+    clear: both;   
+}
 
+/* -------- End Constants -------- */
 
-/* -------- End Constants -------------- */
-
-/* -------- Header -------------- */
+/* -------- Header -------- */
 
 .header {
     background: url(../img/header.jpg) no-repeat center bottom; 
@@ -35,6 +37,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     border-bottom: 5px solid #B7102A;
+    min-width: 960px;
 }
 .header-container {
     height: 200px;
@@ -44,15 +47,20 @@ body {
 }
 .menu {
     float: right;
-    margin-top: 70px;
+    margin-top: 62px;
 }
 .menu ul {
     list-style: none;   
 }
-
-.menu ul li {;
+.menu ul li {
     float: left;
     padding: 10px 20px;
+}
+.menu ul li:first-child {
+    padding: 10px 20px 10px 0;
+}
+.menu ul li:last-child {
+    padding: 10px 0 10px 20px;
 }
 .menu ul li a {
     color: #FFF;
@@ -60,15 +68,46 @@ body {
     padding: 10px 0px;
     border-bottom: 1px solid #FFF;
     letter-spacing: 2px;
+    font-size: 22px;
 }
 .menu ul li a:hover {   
     border-bottom: 2px solid #FFF;
 }
 
+/* -------- End Header -------- */
 
-/* -------- End Header -------------- */
+/* -------- Programs Section -------- */
 
-/* -------- Footer -------------- */
+.programs {
+    height: 200px;   
+}
+.programs .ninesixty, .technology .ninesixty {
+    padding: 20px 0;   
+}
+.programs h3, .technology h3 {
+    font-weight: 100;
+    font-size: 38px;
+    display: block;
+    float: left;
+    margin-right: 40px;
+}
+.programs p, .technology p {
+    font-size: 20px;
+    line-height: 2.9;
+}
+
+/* -------- End Technology Section -------- */
+
+/* -------- Technology Section -------- */
+
+.technology {
+    background-color: #F5F1EE;
+    height: 200px;
+}
+
+/* -------- End Programs Section -------- */
+
+/* -------- Footer -------- */
 
 .footer {
 	background-color: #372F2D;
@@ -96,7 +135,7 @@ body {
 	border-bottom: 1px solid #FFF;
 	color: #FFF;
 	font-size: 20px;
-	font-weight: 400;
+	font-weight: 100;
 }
 .footer-nav ul li a:hover {
 	border-bottom: 2px solid #FFF;
@@ -117,4 +156,4 @@ body {
 	color: #FFF;
 	font-size: 20px;
 }
-/* -------- End Footer -------------- */
+/* -------- End Footer -------- */

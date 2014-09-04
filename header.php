@@ -13,8 +13,9 @@
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="<?php echo $server; ?>img/favicon.ico" type="image/x-icon" >
 
-	<!-- Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,100italic,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
+	<!-- Typekit -->
+	<script type="text/javascript" src="//use.typekit.net/tvi6hef.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
 	<!-- Add CSS -->
 	<link href="<?php echo $server; ?>css/style.css?v=1.3.6" rel="stylesheet">
