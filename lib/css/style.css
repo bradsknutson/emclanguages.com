@@ -237,6 +237,21 @@ body {
 .frame ul li.zb .item .item-overlay {
     background: url('../img/zb-hover.png') no-repeat 1px 26px;
 }
+.frame ul li.passport .item .item-overlay {
+    background: url('../img/tech-passport-hover.png') no-repeat 0px 0px;
+}
+.frame ul li.iculture .item .item-overlay {
+    background: url('../img/tech-iculture-hover.png') no-repeat 0px 0px;
+}
+.frame ul li.bookshelf .item .item-overlay {
+    background: url('../img/tech-bookshelf-hover.png') no-repeat 0px 0px;
+}
+.frame ul li.flipgrid .item .item-overlay {
+    background: url('../img/tech-flipgrid-hover.png') no-repeat 0px 0px;
+}
+.frame ul li.avenue .item .item-overlay {
+    background: url('../img/tech-avenue-hover.png') no-repeat 0px 0px;
+}
 .program-buttons {
     display: block;
     background: #008ABD;
@@ -253,6 +268,12 @@ body {
     margin-top: 30px;
 }
 .program-buttons:nth-child(2) {
+    margin-top: 10px;
+}
+.technology .program-buttons:nth-child(1) {
+    margin-top: 25px;
+}
+.technology .program-buttons:nth-child(2) {
     margin-top: 10px;
 }
 
@@ -279,3 +300,181 @@ body {
 
 
 /* -------- End Sly Styles -------- */
+
+
+.spanish, .french {
+	padding-top: 25px;
+	padding-bottom: 45px;
+}
+.spanish h2, .french h2 {
+    text-align: center;   
+    font-weight: 100;
+    font-size: 48px;
+    margin: 0 0 25px;
+}
+
+/********** AVENTURA PAGE **********/
+
+.spanish .first-row, .spanish .second-row {
+	margin: 10px auto 0px;
+	width: 715px;
+	overflow: hidden;
+}
+.spanish .first-row {
+	margin-bottom: 45px;
+}
+.spanish .product img {
+	width: 150px;
+}
+.spanish .first-row .product:first-child, .spanish .second-row .product:first-child , .spanish .first-row .product:nth-child(2), .spanish .second-row .product:nth-child(2) {
+	margin-right: 65px;
+}
+.spanish .first-row .product:nth-child(2), .spanish .second-row .product:nth-child(2), .spanish .first-row .product:nth-child(3), .spanish .second-row .product:nth-child(3) {
+	margin-left: 65px;
+}
+
+.spanish .button {
+	width: 130px;
+	padding: 16px 5px;
+}
+
+.spanish .hover-state .button:first-child {
+	margin: 30px auto 10px;
+}
+
+/********** END AVENTURA PAGE **********/
+
+/********** T'ES BRANCHE PAGE **********/
+
+.french .first-row, .french .second-row {
+	margin: 10px auto 0px;
+	width: 715px;
+	overflow: hidden;
+}
+.french .first-row {
+	margin-bottom: 45px;
+}
+.french .product img {
+	width: 150px;
+}
+.french .first-row .product:first-child, .french .second-row .product:first-child , .french .first-row .product:nth-child(2), .french .second-row .product:nth-child(2) {
+	margin-right: 65px;
+}
+.french .first-row .product:nth-child(2), .french .second-row .product:nth-child(2), .french .first-row .product:nth-child(3), .french .second-row .product:nth-child(3) {
+	margin-left: 65px;
+}
+
+.french .button {
+	width: 130px;
+	padding: 16px 5px;
+}
+
+.french .hover-state .button:first-child {
+	margin: 30px auto 10px;
+}
+
+/********** END T'ES BRANCHE PAGE **********/
+
+.hover-state {
+	height: 100%;
+	width: 100%;
+	top: 75%;
+	position: absolute;
+	transition: opacity ease 0.3s, top ease 0.3s;
+	-moz-transition: opacity ease 0.3s, top ease 0.3s;
+	-webkit-transition: opacity ease 0.3s, top ease 0.3s;
+	-o-transition: opacity ease 0.3s, top ease 0.3s;
+	-ms-transition: opacity ease 0.3s, top ease 0.3s;
+	opacity: 0;
+}
+.product:hover .hover-state {
+	opacity: 1;
+	top: 0%;
+}
+.product img {
+	opacity: 1;
+	transition: opacity ease 0.3s, top ease 0.3s;
+	-moz-transition: opacity ease 0.3s, top ease 0.3s;
+	-webkit-transition: opacity ease 0.3s, top ease 0.3s;
+	-o-transition: opacity ease 0.3s, top ease 0.3s;
+	-ms-transition: opacity ease 0.3s, top ease 0.3s;
+}
+.product:hover img {
+	opacity: 0;
+}
+.button {
+	width: 130px;
+	text-align: center;
+	display: block;
+}
+.hover-state .button:first-child {
+	margin: 65px auto 10px;
+}
+.hover-state .button:nth-child(2), .hover-state .button:nth-child(3) {
+	margin: 10px auto;
+}
+.atodavela .hover-state .button:first-child {
+	margin: 25px auto 10px;
+}
+.button {
+	-moz-box-shadow:inset 0px 14px 7px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 14px 7px 0px #ffffff;
+	box-shadow:inset 0px 14px 7px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	border:1px solid #dcdcdc;
+	color:#777777;
+	font-family:Calibri,sans-serif;
+	font-size:22px;
+	font-weight:bold;
+	padding:16px 35px;
+	text-decoration:none;
+	text-shadow:2px 2px 3px #ffffff;
+}
+
+.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}
+
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-line {
+	background-color: rgb(198,32,42);
+	height: 45px;
+}
+.bottom-icons {
+	background-image: url('bottom_icons.png');
+	background-repeat: no-repeat;
+	background-position: 100% 50%;
+	margin: auto;
+	padding-top: 5px;
+	height: 37px;
+	
+}
+
+.first-row {
+	margin: 0px auto;
+	width: 860px;
+	overflow: hidden;
+}
+.second-row {
+	margin: auto;
+	width: 860px;
+	overflow: hidden;
+}
+.product {
+	float: left;
+	position: relative;
+	overflow: hidden;
+}

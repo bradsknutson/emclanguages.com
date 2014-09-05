@@ -8,7 +8,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name = "viewport" content = "user-scalable=yes, minimum-scale=.25, maximum-scale=1.0">
-    <title>EMC World Languages</title>
+    <title><?php echo $custom_title; ?>EMC World Languages</title>
 	
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="<?php echo $server; ?>lib/img/favicon.ico" type="image/x-icon" >
