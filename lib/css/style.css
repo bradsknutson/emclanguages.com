@@ -277,6 +277,24 @@ body {
 .technology .program-buttons:nth-child(2) {
     margin-top: 10px;
 }
+.programs .teb .item {
+    width: 241px;
+}
+.programs .av .item {
+    width: 182px;
+}
+.programs .atv .item {
+    width: 155px;
+}
+.programs .da .item {
+    width: 177px;
+}
+.programs .zb .item {
+    width: 185px;
+}
+.technology .item {
+    width: 125px;   
+}
 
 /* Scrollbar */
 .scrollbar {
