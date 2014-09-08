@@ -21,6 +21,7 @@ body {
 .ninesixty {
     width: 960px;
     margin: auto;
+    overflow: hidden;
 }
 .clearfix, .clearfix:before, .clearfix:after {
     clear: both;   
@@ -201,7 +202,7 @@ body {
     z-index: 2;
     opacity: 0;   
 }
-.frame ul li.active .item .item-overlay, .frame ul li:hover .item .item-overlay {
+.frame ul li:hover .item .item-overlay {
     opacity: 1;   
 }
 .frame ul li.teb {
@@ -444,10 +445,6 @@ body {
 	background-color:#dfdfdf;
 }
 
-.button:active {
-	position:relative;
-	top:1px;
-}
 
 .bottom-line {
 	background-color: rgb(198,32,42);
