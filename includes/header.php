@@ -18,7 +18,7 @@
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
 	<!-- Add CSS -->
-	<link href="<?php echo $server; ?>lib/css/style.css?v=1.3.6" rel="stylesheet">
+	<link href="<?php echo $server; ?>lib/css/style.css?v=<?php echo $version; ?>" rel="stylesheet">
     
     <!-- Add Modernizr -->
     <script src="<?php echo $server; ?>lib/js/modernizr.js"></script>
