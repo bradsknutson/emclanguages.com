@@ -15,7 +15,7 @@
 			
 			<div class="hover-state">
 				<a class="button ebook" href="<?php echo $ebook ?>">eBook</a>
-				<a class="button resources" href="http://irc.emcp.com/index.php?titleID=2146&title=%A1Aventura%21%201">Rsources</a>
+				<a class="button resources" href="http://irc.emcp.com/index.php?titleID=2146&title=%A1Aventura%21%201">Resources</a>
 			</div>
 		</div>
 		<div class="product aventura1b">
