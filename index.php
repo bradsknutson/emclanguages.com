@@ -108,7 +108,7 @@
                                 <div class="item">
                                     <img src="<?php echo $server; ?>lib/img/tech-flipgrid.png" alt="Flipgrid" />
                                     <div class="item-overlay animate">
-                                        <a class="program-buttons" href="http://www.flipgrid.com/">Login</a>
+                                        <a class="program-buttons" href="https://flipgrid.com/manage/login.php">Login</a>
                                         <a class="program-buttons" href="http://www.flipgrid.com/">Learn More</a>
                                     </div>
                                 </div>
