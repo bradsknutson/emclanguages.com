@@ -49,7 +49,7 @@
                 <img src="<?php echo $server; ?>lib/img/emc-world-languages-logo.png" alt="EMC World Languages" />
                 <div class="menu">
                     <ul>
-                        <li><a href="http://www.emcp.com" class="transition">Home</a></li>
+                        <li><a href="http://www.emcp.com" class="transition">Home TEST</a></li>
                         <li><a href="http://store.emcp.com" class="transition">Store</a></li>
                         <li><a href="http://support.emcp.com" class="transition">Technical Support</a></li>
                     </ul>
